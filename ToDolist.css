@@ -1,0 +1,44 @@
+body{
+    margin: auto;
+    height: 100%;
+    width: 60%;
+}
+table{
+    border: 2px rgb(115, 129, 119) solid;
+}
+.mainContainer{
+    background-color: rgb(84, 166, 180);
+    align-content: center;
+    border-radius: 15px;
+    border: 7px;
+}
+#l1{
+    color: white;
+    text-align: center;
+}
+#inputBox{
+    margin-left: 25%;
+    height: 30px;
+    width: 45%;
+    border-radius: 10px;
+}
+#button{
+    color: blue;
+}
+p{
+    color: rgb(207, 191, 49);
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+}
+td{
+    
+    background-color: rgb(255, 255, 254);
+    padding: 10px;
+    margin-left: auto;
+    align-content: center;
+    text-align: center;
+}
+table,tr,td{
+    border-radius: 10px;
+}
