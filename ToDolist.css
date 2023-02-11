@@ -3,9 +3,9 @@ body{
     height: 100%;
     width: 60%;
 }
-table{
+/* table{
     border: 2px rgb(115, 129, 119) solid;
-}
+} */
 .mainContainer{
     background-color: rgb(84, 166, 180);
     align-content: center;
