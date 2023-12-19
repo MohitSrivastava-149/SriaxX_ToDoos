@@ -2,25 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="ToDolist.css">
-    <title>To Do List </title>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="ToDolist.css" />
 </head>
 <body>
-    <div class="mainContainer"> 
-        <div >
-            <label id="l1"> To Do List: </label>
-        </div>
-        <div>
-            <input type="text" id="inputBox" placeholder="New Task..">
-            <button type="button" id="button">Add</button>
-        </div>
-        <table id="table">
+    <div class="container">
+        <h1>Enter Your To-Do Lists</h1>
+        <form id="task-form">
+            <input type="text" class="form-input" id="task-input" placeholder="Enter a task...">
+            <button type="submit" >Add Task</button>
+        </form>
+        <ul class="task-list" id="task-list"></ul>
+    </div>
+    
+    <script src="ToDolist.js"></script>
 
-        </table>
-</div>
-
-    <script type="text/javascript" src="ToDolist.js"></script>
 </body>
 </html>
