@@ -1,61 +1,38 @@
-body{
-    height: 100%;
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
     width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: gray;
 }
-.mainContainer{
-    margin-top: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 0;
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: rgb(84, 166, 180);
-    align-content: center;
-    border-radius: 15px;
-    border: 7px;
-}
-
-#l1{
-    margin-left: 100px;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-}
-#inputBox{
-    margin-left: 25%;
-    height: 30px;
-    width: 45%;
-    border-radius: 10px;
-}
-p{
-    color: rgb(207, 191, 49);
-    text-align: center;
-    margin: 5px;
-    font-size: 20px;
-}
-td{
-    background-color: rgb(255, 255, 254);
+.form-input {
+    width: 100%;
     padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    align-content: center;
-    text-align: center;
+    margin: 10px 0;
+    box-sizing: border-box;
 }
-table{
-    margin-top: 20px;
+.task-list {
+    list-style-type: none;
+    padding: 0;
 }
-table,tr,td{
-    border-radius: 10px;
+.task-item {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-button{
-    background-color: aliceblue;
-    font-size: 18px;
-    font-weight: bold;
+.delete-task {
+    background-color: #b41919;
+    color: white;
+    padding: 5px 10px;
     margin-left: 10px;
-    text-align: center;
-    height: 25px;
-    width: 50px;
-    color: blue;
+    border-radius: 5px;
+    cursor: pointer;
 }
